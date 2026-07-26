@@ -16,7 +16,7 @@
 
 
 USE PruebaS2;
-GO
+GO;
 
 DROP TABLE IF EXISTS sales;
 
@@ -46,7 +46,7 @@ INSERT INTO sales VALUES (1010, '2024-03-20', 205, 304, 'Teclado Mecánico',   '
 
 -- Consulta sobre la tabla usando SELECT *
 
-SELECT * FROM sales
+SELECT * FROM sales;
 
 -- Usamos SELECT * cuando queremos analizar la estructura completa de la tabla, asi podemos ver todas las columnas y sus observaciones.
 -- Si no usamos SELECT * podemos usar SELECT y el nombre de la columna. Aunque para que sea mejor visualmente y entendible es recomendable usar SELECT AS para darle un alias al nombre de la columna y que sea mas entendible a la hora de presentar los resultados al cliente
